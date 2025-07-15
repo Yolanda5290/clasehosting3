@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <h2>Registro</h2>
+    <form action="registrar.php" method="POST">
+        Nombre: <input type="text" name="nombre" required><br>
+        Correo: <input type="email" name="email" required><br>
+        Contraseña: <input type="password" name="contrasena" required><br>
+        Rol: 
+        <select name="rol">
+            <option value="usuario">Usuario</option>
+            <option value="editor">Editor</option>
+            <option value="admin">Administrador</option>
+        </select><br>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
